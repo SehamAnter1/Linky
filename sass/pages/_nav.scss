@@ -1,0 +1,15 @@
+.nav  {
+  background-color: $secondaryBgColor;
+ position: fixed;
+ width: 100%;
+ z-index: 11111;
+}
+
+.btn-outline-success {
+  color:$mainTextColor;
+  border-color:$mainTextColor;
+}
+.btn-outline-success:hover {
+  color:white;
+  background-color: $mainTextColor;
+}

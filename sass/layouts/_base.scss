@@ -1,0 +1,109 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+@import url('https://fonts.google.com/specimen/Public+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Poppins:wght@200;300&display=swap');
+@import url('https://fonts.google.com/specimen/Barlow');
+@import url('https://fonts.google.com/specimen/Fraunces');
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Bellefair', serif;
+    background-color: $mainBgColor ;
+    
+   background-position: bottom;
+   background: linear-gradient(0deg, rgb(11 12 16 / 75%), rgb(11 12 16 / 72%)), url(../../assets/bx-search.svg);
+    background-size: revert;
+    /* left: 200px; */
+    background-size: 100% 100vh;    
+    background-repeat: no-repeat;
+    background-attachment: fixed!important;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+button:focus,input:focus{
+    box-shadow: 0 0 0 0.25rem rgb(99 230 193 / 12%);
+   
+}
+.form-control:focus{
+    border-color: $mainTextColor;
+}
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+p {
+    font-size: 15px;
+ }
+
+img {
+    cursor: pointer;
+}
+ul li{
+    list-style: none;
+}
+a{
+ font-weight: bold;
+text-decoration: none;
+color:$mainTextColor;
+}
+h1,h2,h3,h4,h5{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+h1{
+    font-size: 42px;
+ }
+ nav a, nav i.nav-link a{
+    color:$mainTextColor;
+}
+nav a:hover, nav i.nav-link a:hover{
+    color:$mainTextColor;
+}
+
+.nav-item a{
+    color:$mainTextColor;
+}
+.nav-item a:hover{
+    color:$mainTextColor;
+}
+.nav-link:focus, .nav-link:hover {
+    color: $mainTextColor;
+}
+.navbar-toggler-icon{
+    color:$mainTextColor!important;
+}
+
+
+
+
+
+
+/* SCROLL BAR */
+::-webkit-scrollbar{
+    width: .5rem;
+    border-radius: .5rem;
+    background-color:$mainBgColor;
+
+    &-thumb{
+        background-color:$mainTextColor;
+        border-radius: .5rem;
+        -webkit-border-radius: .5rem;
+        -moz-border-radius: .5rem;
+        -ms-border-radius: .5rem;
+        -o-border-radius: .5rem;
+}
+ 
+}
