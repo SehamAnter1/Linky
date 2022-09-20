@@ -1,0 +1,15 @@
+.btn-outline-success {
+    background: linear-gradient(to right, var(--gradient-1), var(--gradient-2));
+    color: #fff;
+    border: none;
+    outline: none;
+}
+.change-theme-button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    i {
+        color: var(--mainTextColor);
+        font-size: 21px;
+    }
+}

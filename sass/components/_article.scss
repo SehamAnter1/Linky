@@ -1,0 +1,26 @@
+/* start top artice*/
+.topArticle {
+    position: absolute;
+    right: 0;
+    background: var(--mainBgColor);
+    width: calc(100% - 300px);
+    @media (max-width: 991px) {
+        position: relative;
+        width: 100%;
+    }
+    h2 {
+        @extend %gradient-text;
+    }
+    .article {
+        background: var(--secondaryBgColor);
+        width: 95%;
+        margin: auto;
+        h4 {
+            color: var(--mainTextColor);
+        }
+        a {
+            color: var(--secondaryTextColor);
+        }
+    }
+}
+/* end top artice*/

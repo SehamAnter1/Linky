@@ -1,0 +1,28 @@
+.searchResult {
+    position: absolute;
+    right: 0;
+    top: 64px;
+    min-height: 100vh;
+    width: calc(100% - 300px);
+    color: var(--mainTextColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+
+    li {
+        width: 80%;
+        background: var(--secondaryBgColor);
+        padding: 20px 15px;
+        border-radius: 5px;
+        margin-bottom: 1.5rem;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        a,
+        &:hover {
+            color: var(--mainTextColor);
+        }
+    }
+}
